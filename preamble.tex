@@ -1,0 +1,50 @@
+\documentclass[
+    10pt,
+    twoside,
+    twocolumn,
+    openany,
+    nodeprecatedcode,
+    bg=full,
+    justified%
+    ]{dndbook}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{rotating}
+\newcommand{\secref}[1]{\ref{#1}. \nameref{#1}}
+\newcommand{\define}[1]{\textbf{#1}}
+\newcommand{\augment}[1]{\newline\indent\textbf{Augment.} #1}
+\newcommand{\spell}[1]{\textit{#1}}
+\newcommand{\power}[1]{\textit{#1}}
+\usepackage{lipsum}
+\usepackage{adjustbox}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{epigraph}
+\usetikzlibrary{intersections}
+\renewcommand{\textflush}{flushepinormal}
+
+\hypersetup{%
+	colorlinks = true,%
+	linkcolor =blue,%
+	anchorcolor = red,%
+	citecolor = blue,%
+	urlcolor = blue%
+}
+
+\title{\Huge\scshape\fontsize{50}{40}\selectfont
+    A Cool Title \\
+    \medskip
+    \normalfont\scshape
+    \Huge
+    A Faction Ability Supplement\\
+    \normalfont\Large\vspace{5mm}\texttt{Version 1.0.0}}
+\author{DM Oayda}
+% \usepackage[capitalise,nameinlink,noabbrev]{cleveref}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+
+\cftsetindents{subsection}{1em}{14mm} % toc spacing
+
+\renewcommand{\thesection}{\Large\arabic{section}}
