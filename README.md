@@ -8,7 +8,7 @@ members of particular factions.
 - [ ] More abilities for The Hammers
 - [ ] Tweaks and edits to existing abilities
 
-## Accessing Psionics
+## Accessing faction-abilities
 The latest faction-abilities release can be found at the [release page](https://github.com/o-oayda/faction-abilities/releases).
 
 ## Changelogs
