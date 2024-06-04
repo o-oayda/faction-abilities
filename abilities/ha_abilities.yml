@@ -1,0 +1,93 @@
+- name: Pop, Pop, Pop
+  subtitle: Hammer Militia Ability
+  resource: 1 action
+  range: 20-foot cone
+  duration: Instant
+  recharge: 3 per long rest
+  long_description: |
+    As an action,
+    you send forth a rapid barrage of thrown weapons,
+    such as throwing hammers, upon your enemies.
+    Each creature within a 20-foot cone centred on yourself
+    must make a Dexterity saving throw with DC equal to
+    8 + your thrown weapon attack modifier.
+
+    A creature that fails the save takes $x$d6 damage,
+    where $x$ is your proficiency bonus, and is blinded
+    until the end of your next turn.
+    A creature that succeeds the save takes half this damage
+    and is not blinded.
+
+    You must have at least three thrown weapons on your person
+    to use this ability.
+    You can use this ability 3 times per long rest.
+- name: Run Like Hell
+  subtitle: Hammer Militia Ability
+  resource: Free action
+  range: Self
+  duration: Until the end of your turn
+  recharge: Recharge 5-6; long rest
+  long_description: |
+    At the start of your turn,
+    you may use a free action to prepare yourself
+    for an incredible burst of speed and agility,
+    leaving your enemies dazed and confused.
+    
+    Whenever you move on that same turn,
+    every enemy creature that can make an opportunity attack
+    against you as a result of this movement
+    instead attacks itself with its opportunity attack.
+    Each enemy must make this opportunity attack;
+    they cannot willingly forego the attack to
+    avoid taking damage.
+
+    At the end of combat, roll 1d6.
+    This ability recharges if you roll a 5 or greater.
+    Otherwise, it recharges after a long rest.
+- name: Strength in Numbers
+  subtitle: Hammer Militia Ability
+  resource: Free action
+  range: Self
+  duration: Until the end of your turn, see text
+  recharge: 3 per long rest
+  long_description: |
+    If you are adjacent to at least one allied creature,
+    you may use a free action to cut deeper into your enemies,
+    exploiting lapses in their attention.
+    Until the end of your current turn
+    or until you are no longer adjacent to any allied creatures
+    (whichever is sooner),
+    you may add your proficiency bonus to your damage rolls.
+- name: Batter Them Down!
+  subtitle: Hammer Militia Ability
+  resource: 1 reaction
+  range: Melee reach
+  duration: Instantaneous
+  recharge: 3 per long rest
+  long_description: |
+    When an enemy creature within your melee reach is knocked prone,
+    you may use your reaction to keep them that way. 
+    Make one melee attack against the creature
+    that was knocked prone.
+    If the attack deals damage,
+    the creature must also make a Constitution saving throw
+    with DC equal to half the damage you dealt.
+    If the creature fails the save,
+    they are incapacitated until the end of their next turn.
+
+    You may use this ability 3 times per long rest.
+- name: Pick Up the Slack!
+  subtitle: Hammer Militia Ability
+  resource: 1 reaction
+  range: 30 feet
+  duration: Instantaneous
+  recharge: 2 per long rest
+  long_description: |
+    Your training has encouraged you to step in for your allies,
+    covering their failures with your success.
+    Whenever an ally within 30 feet of you fails an ability check
+    but before the outcome is decided,
+    you may use a reaction to repeat the check yourself.
+    Use your relevant ability modifier (not your ally's).
+    If the check is successful,
+    treat the ally's original check as if it were successful.

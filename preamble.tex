@@ -12,11 +12,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{rotating}
-\newcommand{\secref}[1]{\ref{#1}. \nameref{#1}}
-\newcommand{\define}[1]{\textbf{#1}}
-\newcommand{\augment}[1]{\newline\indent\textbf{Augment.} #1}
-\newcommand{\spell}[1]{\textit{#1}}
-\newcommand{\power}[1]{\textit{#1}}
 \usepackage{lipsum}
 \usepackage{adjustbox}
 \usepackage{rotating}
@@ -24,6 +19,27 @@
 \usepackage{epigraph}
 \usetikzlibrary{intersections}
 \renewcommand{\textflush}{flushepinormal}
+
+% custom commands
+\newcommand{\secref}[1]{\ref{#1}. \nameref{#1}}
+\newcommand{\define}[1]{\textbf{#1}}
+\newcommand{\augment}[1]{\newline\indent\textbf{Augment.} #1}
+\newcommand{\spell}[1]{\textit{#1}}
+\newcommand{\power}[1]{\textit{#1}}
+\newcommand{\ability}[7]{%
+\DndFeatHeader{#1}[#2]
+\begin{description}
+    [
+      nosep,
+    %   labelsep = \l__dnd_space_dim,
+      after    = { \vspace{4pt plus 1pt minus 1pt} },
+    ]
+    \item [Resource:] #3
+    \item [Range:] #4
+    \item [Duration:] #5
+    \item [Recharge:] #6
+  \end{description}
+#7}
 
 \hypersetup{%
 	colorlinks = true,%
@@ -43,7 +59,7 @@
 \author{DM Oayda}
 % \usepackage[capitalise,nameinlink,noabbrev]{cleveref}
 \setcounter{tocdepth}{2}
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{1}
 
 \cftsetindents{subsection}{1em}{14mm} % toc spacing
 
