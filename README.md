@@ -9,7 +9,7 @@ members of particular factions.
 - [ ] Tweaks and edits to existing abilities
 
 ## Accessing Psionics
-The latest psionics release can be found at the [release page](https://github.com/o-oayda/faction-abilities/releases).
+The latest faction-abilities release can be found at the [release page](https://github.com/o-oayda/faction-abilities/releases).
 
 ## Changelogs
 The full changelogs are also available on the [release page](https://github.com/o-oayda/faction-abilities/releases).
