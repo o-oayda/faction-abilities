@@ -1,5 +1,5 @@
 - name: Pop, Pop, Pop
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: 1 action
   range: 20-foot cone
   duration: Instantaneous
@@ -25,7 +25,7 @@
     to use this ability.
     You can use this ability 3 times per long rest.
 - name: Run Like Hell
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: Free action
   range: Self
   duration: Until the end of your turn
@@ -48,7 +48,7 @@
     This ability recharges if you roll a 5 or greater.
     Otherwise, it recharges after a long rest.
 - name: Strength in Numbers
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: Free action
   range: Self
   duration: Until the end of your turn, see text
@@ -62,7 +62,7 @@
     (whichever is sooner),
     you may add your proficiency bonus to your damage rolls.
 - name: Batter Them Down!
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: 1 reaction, which you take when an enemy creature in your reach is knocked prone
   range: Melee reach
   duration: Instantaneous
@@ -80,7 +80,7 @@
 
     You may use this ability 3 times per long rest.
 - name: Pick Up the Slack!
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: 1 reaction
   range: 30 feet
   duration: Instantaneous
@@ -95,7 +95,7 @@
     If the check is successful,
     treat the ally's original check as if it were successful.
 - name: Body Block
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: 1 bonus action
   range: Melee reach
   duration: Until the grapple ends
@@ -113,7 +113,7 @@
     you can always take the hide action even though enemy creatures
     have line of sight towards you.
 - name: Hamstring Shot
-  subtitle: Hammer Militia Ability
+  subtitle: Daggers' Militia Ability
   resource: 1 action
   range: Ranged attack range
   duration: Instantaneous
