@@ -5,7 +5,7 @@ members of particular factions.
 ## Roadmap
 - [x] Initial release
 - [ ] Battlemage College of Waterway
-- [ ] More abilities for The Hammers
+- [x] More abilities for The Daggers
 - [ ] Tweaks and edits to existing abilities
 
 ## Accessing faction-abilities
