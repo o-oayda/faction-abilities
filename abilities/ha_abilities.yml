@@ -2,13 +2,13 @@
   subtitle: Hammer Militia Ability
   resource: 1 action
   range: 20-foot cone
-  duration: Instant
+  duration: Instantaneous
   recharge: 3 per long rest
   long_description: |
     As an action,
     you send forth a rapid barrage of thrown weapons,
     such as throwing hammers, upon your enemies.
-    Each creature within a 20-foot cone centred on yourself
+    Each creature within a 30-foot cone centred on yourself
     must make a Dexterity saving throw with DC equal to
     8 + your thrown weapon attack modifier.
 
@@ -63,7 +63,7 @@
     you may add your proficiency bonus to your damage rolls.
 - name: Batter Them Down!
   subtitle: Hammer Militia Ability
-  resource: 1 reaction
+  resource: 1 reaction, which you take when an enemy creature in your reach is knocked prone
   range: Melee reach
   duration: Instantaneous
   recharge: 3 per long rest
@@ -94,3 +94,39 @@
     Use your relevant ability modifier (not your ally's).
     If the check is successful,
     treat the ally's original check as if it were successful.
+- name: Body Block
+  subtitle: Hammer Militia Ability
+  resource: 1 bonus action
+  range: Melee reach
+  duration: Until the grapple ends
+  recharge: 3 per long rest
+  long_description: |
+    Your experience fighting in large crowds
+    has honed your ability to use the environment---including
+    other people---to your advantage.
+    You may use a bonus action to attempt to grapple a creature,
+    making the relevant check with advantage.
+    If the grapple is successful,
+    until the grapple ends,
+    you always have three-quarters cover.
+    In addition,
+    you can always take the hide action even though enemy creatures
+    have line of sight towards you.
+- name: Hamstring Shot
+  subtitle: Hammer Militia Ability
+  resource: 1 action
+  range: Ranged attack range
+  duration: Instantaneous
+  recharge: 3 per long rest
+  long_description: |
+    You target your enemy with a precision shot,
+    greatly hampering their movement.
+    Make a ranged weapon attack with any ranged weapon available
+    as part of this action.
+    If the attack hits,
+    the target must make a Constitution saving throw
+    with DC equal to 8 + your ranged weapon attack modifier.
+    If the target fails,
+    the target's speed is halved until the end of your next turn.
+    When this speed reduction ends,
+    the target takes damage equal to four times your proficiency bonus.

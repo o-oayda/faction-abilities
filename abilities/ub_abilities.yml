@@ -190,3 +190,17 @@
 
     Once you use this ability,
     you cannot use it again until your finish a long rest.
+- name: Marshal the Troops!
+  subtitle: Uberium Officer Ability
+  resource: Action
+  range: 120 feet
+  duration: Instant
+  recharge: Once per day
+  long_description: |
+    If you are not in combat,
+    you may use an action to inspire and rally your allies.
+    Make a Charisma (Persuasion) check against a DC of 10
+    for each creature you wish to inspire
+    up to a total of 3 + your Charisma modifier.
+    If the check is successful,
+    that creature gains 10 temporary hit points.

@@ -2,7 +2,7 @@ import yaml
 import os
 
 file_names = ['ub_abilities', 'ha_abilities',
-              'fu_abilities']
+              'fu_abilities', 'bc_abilities']
 
 for file in file_names:
     # load in abilities from YAML
