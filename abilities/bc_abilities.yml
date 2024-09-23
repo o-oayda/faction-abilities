@@ -63,3 +63,25 @@
     Once you finish a long rest,
     the spell you learnt with this ability is forgotten
     and the original spell restored to your list of prepared spells.
+- name: Psionic Awakening
+  subtitle: Battlemage Ability
+  resource: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  recharge: 2 per day
+  long_description: |
+    Your intense but brief study of the Old Way has awakened
+    latent psionic abilities within you. Your may manifest
+    the \power{matter agitation} psionic power as a 2/day innate talent.
+- name: Defence Against the Old Way
+  subtitle: Battlemage Ability
+  resource: Dependent on the power, see text
+  range: As above
+  duration: As above
+  recharge: 1 per long rest
+  long_description: |
+    Accompanied with your study of the Old Way is the knowledge
+    of how to defend against its malign affects. You may manifest
+    either the \power{detect psionics} or \power{mind palace} power
+    as a 1/day innate talent. Once you manifest either, you may not
+    use this ability again until you finish a long rest.
